@@ -27,6 +27,6 @@ create a virtual env and pip install the requirements, then run `python login.py
 you can now use this access token to call Admin directory APIs.  you can try with the [users.get](https://developers.google.com/admin-sdk/directory/reference/rest/v1/users/get) API to make sure things work before you try the `users.update` method.
 
 ```
-curl -H "Authorization: Bearer <token>` https://admin.googleapis.com/admin/directory/v1/users/<userKey>
+curl -H "Authorization: Bearer <token>" https://admin.googleapis.com/admin/directory/v1/users/<userKey>
 ```
 
